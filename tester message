@@ -1,0 +1,8 @@
+while true do
+wait(10)--set this to how much time between messages
+msg = Instance.new ("Message")
+msg.Parent = game.Workspace
+msg.Text = "Howdy Hoo, I'm Mr Hankey!" --change text to whatever you want to appear
+wait(15)--change this to how long you want the message to stay
+msg:remove()
+end
